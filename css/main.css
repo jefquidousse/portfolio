@@ -632,7 +632,7 @@ body {
   font-size: 46px;
 }
 
-.bg-fixed bg1.main-container.tab-container#tab-data-wrap#about.active.clearfix.contact-info {
+.bg-fixed.bg-1.main-container.main-wrapper.clearfix#tab-container#tab-data-wrap#about.active.clearfix.contact-info {
 	display: grid;
 	grid-template-columns: 40% 20% 20% 20%;
 }
