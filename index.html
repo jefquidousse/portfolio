@@ -189,6 +189,9 @@
                           CV
                         </a>
                       </h3>
+                      <p>
+                        CV
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -324,7 +327,7 @@
                   <p class="project-title">Chiro Herent</p>
                 </div>
                 <div class="project-container">
-                  <div class="project-img-container" onclick="document.getElementById('modal-wrapper').style.display='block'">
+                  <div class="project-img-container" onclick="document.getElementById('modal-w').style.display='block'">
                     <img src="./images/floor.jpg" alt="project image">
                   </div>
                   <p class="project-title">VZW Onbekend</p>
@@ -343,12 +346,29 @@
                   <div class="container">
                     <input type="text" placeholder="Chiro Herent" name="uname" readonly>
                     <textarea class="project_description" rows="3" placeholder="I have build a website for my Chiro" readonly></textarea>
-                    <input type="url" placeholder="http://www.chiroherent.be/"readonly>
+                    <input type="url" placeholder=<a href="http://www.chiroherent.be/">http://www.chiroherent.be/</a>readonly>
                     <input type="text" placeholder="HTML & CSS" readonly>                    
                   </div>
 
                 </form>
 
+              </div>
+              <div id="modal-w" class="modal>
+                 <form class="modal-content animate">
+
+                  <div class="imgcontainer">
+                    <span onclick="document.getElementById('modal-wrapper').style.display='none'" class="close" title="Close PopUp">&times;</span>
+                    <img src="images/floor.jpg" alt="project" class="avatar">
+                    <h1 class="project_details" style="text-align:center">Project Details</h1>
+                  </div>
+
+                  <div class="container">
+                    <input type="text" placeholder="VZW Onbekend" name="uname" readonly>
+                    <textarea class="project_description" rows="3" placeholder="I am building a website for an organisation who organizes events, with local talent, for the youth. The website is not functional at the moment." readonly></textarea>
+                    <input type="text" placeholder="HTML & CSS" readonly>                    
+                  </div>
+
+                </form>
               </div>
             </section>
           </div>
