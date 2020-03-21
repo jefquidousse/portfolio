@@ -632,6 +632,11 @@ body {
   font-size: 46px;
 }
 
+.contact-info {
+	display: grid;
+	grid-template-columns: 40% 20% 20% 20%;
+}
+
 /* Item Box */
 .item-box {
   padding: 6px 6px 6px 10px;
